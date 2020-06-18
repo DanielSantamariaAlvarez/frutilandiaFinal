@@ -205,5 +205,8 @@ header {
     display: block;
     max-width: 220px;
   }
+  .banner {
+    margin-top: 120px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
