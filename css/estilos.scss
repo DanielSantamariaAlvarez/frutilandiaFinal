@@ -145,6 +145,8 @@ header{
 //Nosotros --------------------------------------------------------------------------------------
 .nosotros{
     margin-top: 70px;
+    padding: 50px;
+    background: $blanquito;
     .tarjeta{
         margin: 10px;
         text-align: center;
@@ -184,7 +186,6 @@ header{
 .domicilio{
     padding: 30px;
     margin-top: 70px;
-    background: $blanquito;
     .centrar{
         text-align: center;
         display: block;

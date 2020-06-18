@@ -135,6 +135,8 @@ header {
 
 .nosotros {
   margin-top: 70px;
+  padding: 50px;
+  background: #f0f0e8;
 }
 
 .nosotros .tarjeta {
@@ -183,7 +185,6 @@ header {
 .domicilio {
   padding: 30px;
   margin-top: 70px;
-  background: #f0f0e8;
 }
 
 .domicilio .centrar {
