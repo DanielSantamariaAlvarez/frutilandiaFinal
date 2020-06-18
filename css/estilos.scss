@@ -278,6 +278,23 @@ header{
 footer{
     background: $azul;
     padding: 40px;
+    h1{
+        text-align: center;
+        color:white;
+        margin-top: 30px;
+    }
+    .copyright{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        a{
+            color: $verde;
+            text-decoration: none;
+        }
+        .rojo{
+            color: red;
+        }
+    }
     .rappi{
         height: 100%;
         width: 100%;
