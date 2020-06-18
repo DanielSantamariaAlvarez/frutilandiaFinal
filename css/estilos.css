@@ -41,6 +41,7 @@ header {
 .logo {
   float: left;
   padding: 20px 0;
+  max-width: 250px;
 }
 
 .logo img {
