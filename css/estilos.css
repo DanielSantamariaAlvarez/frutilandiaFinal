@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+.centrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 header {
   height: 130px;
   background: #01708b;
@@ -139,7 +148,7 @@ header {
 .domicilio .centrar {
   text-align: center;
   display: block;
-  margin: auto 0px;
+  margin: auto;
 }
 
 .domicilio .texto {

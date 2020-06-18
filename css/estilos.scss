@@ -11,6 +11,12 @@ $blanquito:rgb(240,240,232);
     padding: 0;
 }
 
+.centrar{
+    display: flex;
+    align-items: center;
+}
+
+
 
 //header----------------------------
 header{
@@ -141,7 +147,7 @@ header{
     .centrar{
         text-align: center;
         display: block;
-        margin: auto 0px;
+        margin: auto ;
     }
     .texto{
         font-size: 40px;
@@ -156,6 +162,7 @@ header{
         border-radius: 50px;
     }
 }
+
 
 
 
