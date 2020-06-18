@@ -12,6 +12,14 @@
           align-items: center;
 }
 
+.titulo {
+  font-size: 40px;
+  color: #01708b;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 10px;
+}
+
 header {
   height: 130px;
   background: #01708b;
@@ -143,7 +151,7 @@ header {
 .domicilio {
   padding: 30px;
   margin-top: 70px;
-  background: #e0d2b5;
+  background: #f0f0e8;
 }
 
 .domicilio .centrar {
@@ -164,13 +172,117 @@ header {
   color: white;
   font-size: 20px;
   border-radius: 50px;
+  cursor: pointer;
+}
+
+.domicilio .boton:hover {
+  background-color: #a8c545;
 }
 
 .domicilio .imagen {
   padding: 10px;
 }
 
+.franquicias {
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.franquicias .imagen {
+  padding: 10px;
+}
+
+.franquicias .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.franquicias .descripcion {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.franquicias .fondoAzul {
+  background: #01708b;
+  border-radius: 10px;
+}
+
+.franquicias .fondoAzul .descripcion {
+  color: white;
+  text-align: center;
+}
+
+.franquicias .boton {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background: #a8c545;
+  border-radius: 50px;
+  width: 200px;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.franquicias .boton:hover {
+  background: #e0d2b5;
+  color: black;
+}
+
+.eventos {
+  background: #f0f0e8;
+  padding: 30px;
+}
+
+.eventos .boton {
+  margin-top: 10px;
+  padding: 10px;
+  background: #01708b;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.eventos .boton:hover {
+  background-color: #a8c545;
+}
+
+.eventos .imagen {
+  padding: 20px;
+}
+
+footer {
+  background: #01708b;
+  padding: 40px;
+}
+
+footer .rappi {
+  height: 100%;
+  width: 100%;
+}
+
+footer .titu {
+  font-size: 30px;
+  color: white;
+}
+
+footer .redes {
+  padding: 10px;
+  font-size: 70px;
+}
+
+footer .redes a {
+  text-decoration: none;
+  color: white;
+  margin-right: 70px;
+}
+
 @media screen and (max-width: 767px) {
+  .titulo {
+    font-size: 30px;
+  }
   .desaparecer {
     display: none;
   }
@@ -214,6 +326,21 @@ header {
   }
   .banner {
     margin-top: 120px;
+  }
+  .domicilio .texto {
+    font-size: 35px;
+  }
+  .franquicias .descripcion {
+    font-size: 20px;
+  }
+  footer .titu {
+    font-size: 20px;
+  }
+  footer .redes {
+    font-size: 30px;
+  }
+  footer .rappi {
+    width: 70px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
