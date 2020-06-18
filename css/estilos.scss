@@ -23,6 +23,31 @@ $blanquito:rgb(240,240,232);
     padding: 10px;
 }
 
+.agrandar{
+    transition: .1s linear;
+    &:hover{
+        transform: scale(1.3);
+        z-index: 99;
+    }
+}
+
+//------------------------Botón-----------------------------
+
+.ir-arriba{
+    display: block;
+    padding: 15px 20px 10px 20px;
+    background: $verde;
+    font-size: 20px;
+    color:#fff;
+    cursor:pointer;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    border-radius: 50px;
+    z-index: 100;
+    
+}
+
 
 
 
@@ -113,7 +138,7 @@ header{
         background: $azul;
         height: 50%;
     }
-
+    
 }
 
 
@@ -121,7 +146,7 @@ header{
 .nosotros{
     margin-top: 70px;
     .tarjeta{
-        margin: 5px;
+        margin: 10px;
         text-align: center;
         font-size: 18px;
         i{
@@ -132,6 +157,10 @@ header{
     .bordeVerde{
         border: 1px solid $verde;
         padding: 10px;
+        transition: .1s linear;
+        &:hover{
+            transform: scale(1.1);
+        }
     }
     .bordeVerdeGrueso{
         border: 2px solid $verde;
@@ -221,7 +250,7 @@ header{
             color: black;
         }
     }
-
+    
 }
 
 .eventos{
@@ -288,11 +317,11 @@ footer{
 //Responsive --------------------------------------------------------------------------
 
 @media screen and (max-width:767px){
-
+    
     .titulo{
         font-size: 30px;
     }
-
+    
     .desaparecer{
         display: none;
     }
@@ -339,28 +368,38 @@ footer{
         display: block;
         max-width: 220px;
     }
-
+    
     //Banner ---------------------------------
-
+    
     .banner{
         margin-top: 120px;
     }
-
-
+    
+    //Titulo--------------------------------------
+    
+    
+    
     //Domicilios
     .domicilio{
         .texto{
             font-size: 35px;
         }
-
+        
         
     }
+    
+    //Nosotros -------------------------------------------
+    .nosotros{
+        margin-top: 10px;
+    }
+    
+    //Franquicias-------------------------------------
     .franquicias{
         .descripcion{
             font-size: 20px;
         }
     }
-
+    
     footer{
         .titu{
             font-size: 20px;

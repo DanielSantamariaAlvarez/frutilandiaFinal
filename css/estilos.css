@@ -20,6 +20,31 @@
   padding: 10px;
 }
 
+.agrandar {
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.agrandar:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 99;
+}
+
+.ir-arriba {
+  display: block;
+  padding: 15px 20px 10px 20px;
+  background: #a8c545;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  z-index: 100;
+}
+
 header {
   height: 130px;
   background: #01708b;
@@ -113,7 +138,7 @@ header {
 }
 
 .nosotros .tarjeta {
-  margin: 5px;
+  margin: 10px;
   text-align: center;
   font-size: 18px;
 }
@@ -126,6 +151,13 @@ header {
 .nosotros .bordeVerde {
   border: 1px solid #a8c545;
   padding: 10px;
+  -webkit-transition: .1s linear;
+  transition: .1s linear;
+}
+
+.nosotros .bordeVerde:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .nosotros .bordeVerdeGrueso {
@@ -329,6 +361,9 @@ footer .redes a {
   }
   .domicilio .texto {
     font-size: 35px;
+  }
+  .nosotros {
+    margin-top: 10px;
   }
   .franquicias .descripcion {
     font-size: 20px;
