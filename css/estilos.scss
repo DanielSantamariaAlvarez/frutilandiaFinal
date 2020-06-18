@@ -18,6 +18,8 @@ $blanquito:rgb(240,240,232);
 
 
 
+
+
 //header----------------------------
 header{
     height: 130px;
@@ -103,6 +105,7 @@ header{
         background: $azul;
         height: 50%;
     }
+
 }
 
 
@@ -162,6 +165,9 @@ header{
         font-size: 20px;
         border-radius: 50px;
     }
+    .imagen{
+        padding: 10px;
+    }
 }
 
 
@@ -186,6 +192,9 @@ header{
 //Responsive --------------------------------------------------------------------------
 
 @media screen and (max-width:767px){
+    .desaparecer{
+        display: none;
+    }
     .inner-width{
         .desaparecer{
             display: none;
