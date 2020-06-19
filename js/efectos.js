@@ -50,7 +50,8 @@ window.addEventListener('load', function(){
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
-            },{
+            },
+            {
                 // screens greater than >= 1024px
                 breakpoint: 800,
                 settings: {
