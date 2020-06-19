@@ -31,6 +31,12 @@
   z-index: 99;
 }
 
+.contenedor {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
 .ir-arriba {
   display: block;
   padding: 15px 20px 10px 20px;
@@ -118,14 +124,13 @@ header {
   color: white;
   font-size: 26px;
   display: none !important;
-  padding-top: 10px;
+  padding-top: 30px;
   cursor: pointer;
   margin-right: 20px;
 }
 
 .banner {
   position: relative;
-  /* --- --- CAROUSEL --- --- */
 }
 
 .banner .fondoAzul {
@@ -133,65 +138,6 @@ header {
   background: #01708b;
   height: 50%;
   z-index: -9;
-}
-
-.banner .carouselContenedor {
-  position: relative;
-}
-
-.banner .carouselAnterior,
-.banner .carouselSiguiente {
-  position: absolute;
-  display: block;
-  width: 30px;
-  height: 30px;
-  border: none;
-  top: calc(50% - 35px);
-  cursor: pointer;
-  line-height: 30px;
-  text-align: center;
-  background: none;
-  color: #a8c545;
-  opacity: 100%;
-  z-index: 90;
-}
-
-.banner .carouselAnterior:hover,
-.banner .carouselSiguiente:hover {
-  opacity: 100%;
-}
-
-.banner .carouselAnterior {
-  left: -30px;
-}
-
-.banner .carouselSiguiente {
-  right: -30px;
-}
-
-.banner .carouselLista {
-  overflow: hidden;
-}
-
-.banner .carouselElemento {
-  text-align: center;
-}
-
-.banner .carouselIndicadores .glider-dot {
-  display: block;
-  width: 30px;
-  height: 4px;
-  background: #01708b;
-  opacity: .2;
-  border-radius: 0;
-}
-
-.banner .carouselIndicadores .glider-dot:hover {
-  opacity: .5;
-}
-
-.banner .carouselIndicadores .glider-dot.active {
-  opacity: 1;
 }
 
 .nosotros {
@@ -395,6 +341,9 @@ footer .redes a {
 }
 
 @media screen and (max-width: 767px) {
+  .contenedor {
+    padding: 10px;
+  }
   .titulo {
     font-size: 30px;
   }

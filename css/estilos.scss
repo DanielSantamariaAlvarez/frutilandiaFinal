@@ -31,6 +31,12 @@ $blanquito:rgb(240,240,232);
     }
 }
 
+.contenedor {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
 //------------------------Botón-----------------------------
 
 .ir-arriba{
@@ -124,7 +130,7 @@ header{
     color: white;
     font-size: 26px;
     display: none !important;
-    padding-top:10px;
+    padding-top:30px;
     cursor: pointer;
     margin-right: 20px;
 }
@@ -138,66 +144,6 @@ header{
         background: $azul;
         height: 50%;
         z-index: -9;
-    }
-    
-    /* --- --- CAROUSEL --- --- */
-    .carouselContenedor {
-        position: relative;
-    }
-    
-    .carouselAnterior,
-    .carouselSiguiente {
-        position: absolute;
-        display: block;
-        width: 30px;
-        height: 30px;
-        border: none;
-        top: calc(50% - 35px);
-        cursor: pointer;
-        line-height: 30px;
-        text-align: center;
-        background: none;
-        color: $verde;
-        opacity: 100%;
-        z-index: 90;
-    }
-    
-    .carouselAnterior:hover,
-    .carouselSiguiente:hover {
-        opacity: 100%;
-    }
-    
-    .carouselAnterior {
-        left: -30px;
-    }
-    
-    .carouselSiguiente {
-        right: -30px;
-    }
-    
-    .carouselLista {
-        overflow: hidden;
-    }
-    
-    .carouselElemento {
-        text-align: center;
-    }
-    
-    .carouselIndicadores .glider-dot {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background: $azul;
-        opacity: .2;
-        border-radius: 0;
-    }
-    
-    .carouselIndicadores .glider-dot:hover {
-        opacity: .5;
-    }
-    
-    .carouselIndicadores .glider-dot.active {
-        opacity: 1;
     }
     
 }
@@ -396,7 +342,9 @@ footer{
 //Responsive --------------------------------------------------------------------------
 
 @media screen and (max-width:767px){
-    
+    .contenedor{
+        padding: 10px;
+    }
     .titulo{
         font-size: 30px;
     }
