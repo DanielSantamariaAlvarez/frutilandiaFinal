@@ -257,8 +257,62 @@ header{
 .franquicias{
     margin-top: 30px;
     padding: 30px;
+    .imagen{
+        padding: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .descripcion{
+        padding: 10px;
+        font-size: 25px;
+    }
+    .fondoAzul{
+        background: $azul;
+        border-radius: 10px;
+        .descripcion{
+            color: white;
+            text-align: center;
+        }
+    }
+    .boton{
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        background: $verde;
+        border-radius: 50px;
+        width: 200px;
+        font-size: 20px;
+        margin: 20px;
+        cursor: pointer;
+        &:hover{
+            background: $crema ;
+            color: black;
+        }
+    }
     
+}
 
+.eventos{
+    background: $blanquito;
+    padding: 30px;
+    .boton{
+        margin-top: 10px;
+        padding: 10px;
+        background: $azul;
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        &:hover{
+            background-color: $verde;
+        }
+    }
+    .imagen{
+        padding: 20px;
+    }
 }
 
 
