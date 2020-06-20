@@ -372,6 +372,10 @@ footer .redes a {
   .banner .eventos .evento-description .btn {
     opacity: 1;
   }
+  .domicilio {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
   .domicilio .texto {
     font-size: 35px;
   }
