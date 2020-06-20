@@ -306,6 +306,10 @@ header {
   color: black;
 }
 
+.franquicias a:hover {
+  text-decoration: none;
+}
+
 .eventos {
   background: #f0f0e8;
   padding: 30px;
@@ -313,7 +317,7 @@ header {
 
 .eventos .boton {
   margin-top: 10px;
-  padding: 10px;
+  padding: 20px;
   background: #01708b;
   color: white;
   font-size: 20px;
@@ -323,6 +327,10 @@ header {
 
 .eventos .boton:hover {
   background-color: #a8c545;
+}
+
+.eventos a:hover {
+  text-decoration: none;
 }
 
 .eventos .imagen {
