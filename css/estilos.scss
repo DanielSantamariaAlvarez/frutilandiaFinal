@@ -300,19 +300,21 @@ header{
     
 }
 
+
+//Eventos ------------------------------------
 .eventos{
     background: $blanquito;
     padding: 30px;
     .boton{
         margin-top: 10px;
         padding: 20px;
-        background: $azul;
+        background: $verde;
         color: white;
         font-size: 20px;
         border-radius: 50px;
         cursor: pointer;
         &:hover{
-            background-color: $verde;
+            background-color: $azul;
         }
     }
     a{
@@ -464,6 +466,54 @@ footer{
 
 
 
+//Página de franquicias ----------------------------------------------------
+
+//Banner-------------------------------------------------
+.bannerFranquicias{
+    position: relative;
+    .fondoAzulDerecha{
+        position: absolute;
+        background: $azul;
+        height: 50%;
+        right: 0;
+        z-index: -9;
+    }
+    .imagen{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .titu{
+        text-align: start;
+        font-size: 90px;
+        font-weight: 300;
+        color: white;
+        vertical-align: middle;
+    }
+}
+
+//PostBanner -------------------------------
+.postBanner{
+    padding: 30px;
+    .boton{
+        margin-top: 10px;
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: $verde;
+        &:hover{
+            background-color: $azul;
+        }
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
 
 
 
@@ -597,6 +647,18 @@ footer{
         margin-top: 120px;
         .titu{
             font-size: 50px;
+        }
+    }
+
+
+    // Página de Franquicias ------------------------------------
+    
+    //BannerFranquicias-------------------------------------------
+    .bannerFranquicias{
+        margin-top: 120px;
+        .titu{
+            font-size: 50px;
+            text-align: center;
         }
     }
 }
