@@ -140,6 +140,42 @@ header {
   z-index: -9;
 }
 
+.banner .imagen {
+  padding: 10px;
+}
+
+.banner .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.fotos .titulo {
+  text-align: center;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.fotos .foto {
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+}
+
+.fotos .foto .eventos {
+  position: absolute;
+}
+
+.fotos .foto img {
+  width: 100%;
+  height: 100%;
+}
+
+.fotos .owl-carousel {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 .nosotros {
   margin-top: 70px;
   padding: 50px;
@@ -208,7 +244,7 @@ header {
 
 .domicilio .boton {
   padding: 10px;
-  background: #01708b;
+  background: #a8c545;
   color: white;
   font-size: 20px;
   border-radius: 50px;
@@ -216,7 +252,7 @@ header {
 }
 
 .domicilio .boton:hover {
-  background-color: #a8c545;
+  background-color: #01708b;
 }
 
 .domicilio .imagen {
@@ -226,71 +262,6 @@ header {
 .franquicias {
   margin-top: 30px;
   padding: 30px;
-}
-
-.franquicias .imagen {
-  padding: 10px;
-}
-
-.franquicias .imagen img {
-  width: 100%;
-  height: 100%;
-}
-
-.franquicias .descripcion {
-  padding: 10px;
-  font-size: 25px;
-}
-
-.franquicias .fondoAzul {
-  background: #01708b;
-  border-radius: 10px;
-}
-
-.franquicias .fondoAzul .descripcion {
-  color: white;
-  text-align: center;
-}
-
-.franquicias .boton {
-  padding: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-  background: #a8c545;
-  border-radius: 50px;
-  width: 200px;
-  font-size: 20px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-.franquicias .boton:hover {
-  background: #e0d2b5;
-  color: black;
-}
-
-.eventos {
-  background: #f0f0e8;
-  padding: 30px;
-}
-
-.eventos .boton {
-  margin-top: 10px;
-  padding: 10px;
-  background: #01708b;
-  color: white;
-  font-size: 20px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.eventos .boton:hover {
-  background-color: #a8c545;
-}
-
-.eventos .imagen {
-  padding: 20px;
 }
 
 footer {
@@ -390,6 +361,16 @@ footer .redes a {
   }
   .banner {
     margin-top: 120px;
+  }
+  .banner .eventos .evento-description {
+    position: relative;
+    font-size: 0.8em;
+    bottom: 0;
+    background-color: black;
+    height: 300px;
+  }
+  .banner .eventos .evento-description .btn {
+    opacity: 1;
   }
   .domicilio .texto {
     font-size: 35px;
