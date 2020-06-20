@@ -161,7 +161,7 @@ header{
         font-weight: 300;
         margin: 20px;
     }
-
+    
     .foto{
         position: relative;
         height: 100%;
@@ -174,7 +174,7 @@ header{
             height: 100%;
         }
         
-
+        
     }
     .owl-carousel{
         display: flex !important;
@@ -358,7 +358,96 @@ footer{
 }
 
 
+//Cosas nuevas de Eventos ------------------------------------------------
 
+.bannerEventos{
+    position: relative;
+    .fondoAzulDerecha{
+        position: absolute;
+        background: $azul;
+        height: 50%;
+        right: 0;
+        z-index: -9;
+    }
+    .imagen{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .titu{
+        text-align: center;
+        font-size: 90px;
+        font-weight: 300;
+        color: white;
+        vertical-align: middle;
+    }
+}
+
+
+// Contáctanos-----------------------------------------------------
+.contacto{
+    padding-top: 40px;
+    background: $blanquito;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    .titulo{
+        text-align: center;
+        font-weight: 300;
+        margin: 20px;
+    }
+    .texto{
+        font-size: 20px;
+    }
+    .formulario .contenedor-inputs{
+        padding: 20px;
+        border-radius: 6px 6px 0 0;
+    }
+    
+    .formulario input[type="text"],
+    .formulario input[type="email"],
+    .formulario textarea{
+        display:block;
+        width:80%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        font-size: 18px;
+    }
+    
+    .formulario input[type="text"]:focus,
+    .formulario input[type="email"]:focus,
+    .formulario textarea:focus{
+        border-bottom: 2px solid #246eb9;
+    }
+    .formulario textarea{
+        max-height: 300px;
+    }
+    
+    .formulario .btn{
+        width:50%;
+        margin: auto;
+        text-align: center;
+        background: $azul;
+        color:white;
+        border: none;
+        display: block;
+        padding: 15px 10px;
+        cursor:pointer;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+    
+    .formulario .btn:hover{
+        background: $verde;
+    }
+    
+    // termina formulario-----------------------------------------------
+}
 
 
 
@@ -485,6 +574,19 @@ footer{
         }
         .rappi{
             width: 70px;
+        }
+    }
+
+
+
+
+    // Página de Eventos ------------------------------------
+    
+    //BannerEventos-------------------------------------------
+    .bannerEventos{
+        margin-top: 120px;
+        .titu{
+            font-size: 50px;
         }
     }
 }

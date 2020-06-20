@@ -376,6 +376,96 @@ footer .redes a {
   margin-right: 70px;
 }
 
+.bannerEventos {
+  position: relative;
+}
+
+.bannerEventos .fondoAzulDerecha {
+  position: absolute;
+  background: #01708b;
+  height: 50%;
+  right: 0;
+  z-index: -9;
+}
+
+.bannerEventos .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.bannerEventos .titu {
+  text-align: center;
+  font-size: 90px;
+  font-weight: 300;
+  color: white;
+  vertical-align: middle;
+}
+
+.contacto {
+  padding-top: 40px;
+  background: #f0f0e8;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.contacto .titulo {
+  text-align: center;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.contacto .texto {
+  font-size: 20px;
+}
+
+.contacto .formulario .contenedor-inputs {
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 18px;
+}
+
+.contacto .formulario input[type="text"]:focus,
+.contacto .formulario input[type="email"]:focus,
+.contacto .formulario textarea:focus {
+  border-bottom: 2px solid #246eb9;
+}
+
+.contacto .formulario textarea {
+  max-height: 300px;
+}
+
+.contacto .formulario .btn {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background: #01708b;
+  color: white;
+  border: none;
+  display: block;
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.contacto .formulario .btn:hover {
+  background: #a8c545;
+}
+
 @media screen and (max-width: 767px) {
   .contenedor {
     padding: 10px;
@@ -458,6 +548,12 @@ footer .redes a {
   }
   footer .rappi {
     width: 70px;
+  }
+  .bannerEventos {
+    margin-top: 120px;
+  }
+  .bannerEventos .titu {
+    font-size: 50px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
