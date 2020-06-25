@@ -405,9 +405,8 @@ footer{
 
 // Contáctanos-----------------------------------------------------
 .contacto{
-    padding-top: 40px;
+    padding-top: 60px;
     background: $blanquito;
-    margin-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     color: black;
@@ -521,10 +520,95 @@ footer{
     }
 }
 
+// TextFranquicias------------------------------------------------------------------
+.textFranquicias{
+    background: $blanquito;
+    padding: 50px;
+    .titulito{
+        text-align: center;
+        font-weight: 300;
+        margin: 20px;
+        font-size: 45px;
+        color: $azul;
+    }
+    .descripcion{
+        text-align: center;
+        font-size: 18px;
+
+    }
+}
 
 
 
 
+
+
+//Tarjetas Franquicias -----------------------------------------------------------------------------
+
+.tarjetasFranquicias{
+    background: white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    .info{
+        padding-top: 40px;
+    }
+    .flechita{
+        width: 100px;
+        height: 50px;
+        margin:0 auto;
+        position: relative;
+        .flecha {
+            animation: arrow 1s ease-in-out infinite;
+            font-size:30px;              
+         }
+          
+         .flecha:hover{
+           animation:arrow 1s ease-out infinite !important;
+           a{
+            color:$verde;
+           }
+         }
+     }
+     
+    .descripcion{
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: $azul;
+
+    }
+    .tarjetica{
+        padding: 10px;
+        border:1px solid $azul;
+        height: 100%;
+        color: $azul;
+        .interna{
+            padding: 30px;
+            height: 100%;
+            border: 1px solid $azul;
+            transition: .15s linear;
+            &:hover{
+                transform: scale(1.1);
+                background: $azul;
+                color: white;
+            }
+        }
+    }
+}
+@keyframes arrow {
+    0% {
+      transform: translate(0px, 50px);
+    }
+   
+     50% {
+      transform: translate(0px, 60px);
+    }
+    
+    100% {
+      transform: translate(0px, 50px);
+    }
+  }
 
 
 

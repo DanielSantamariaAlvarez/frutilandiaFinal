@@ -415,9 +415,8 @@ footer .redes a {
 }
 
 .contacto {
-  padding-top: 40px;
+  padding-top: 60px;
   background: #f0f0e8;
-  margin-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   color: black;
@@ -524,6 +523,116 @@ footer .redes a {
 
 .postBanner a:hover {
   text-decoration: none;
+}
+
+.textFranquicias {
+  background: #f0f0e8;
+  padding: 50px;
+}
+
+.textFranquicias .titulito {
+  text-align: center;
+  font-weight: 300;
+  margin: 20px;
+  font-size: 45px;
+  color: #01708b;
+}
+
+.textFranquicias .descripcion {
+  text-align: center;
+  font-size: 18px;
+}
+
+.tarjetasFranquicias {
+  background: white;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tarjetasFranquicias .info {
+  padding-top: 40px;
+}
+
+.tarjetasFranquicias .flechita {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tarjetasFranquicias .flechita .flecha {
+  -webkit-animation: arrow 1s ease-in-out infinite;
+          animation: arrow 1s ease-in-out infinite;
+  font-size: 30px;
+}
+
+.tarjetasFranquicias .flechita .flecha:hover {
+  -webkit-animation: arrow 1s ease-out infinite !important;
+          animation: arrow 1s ease-out infinite !important;
+}
+
+.tarjetasFranquicias .flechita .flecha:hover a {
+  color: #a8c545;
+}
+
+.tarjetasFranquicias .descripcion {
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #01708b;
+}
+
+.tarjetasFranquicias .tarjetica {
+  padding: 10px;
+  border: 1px solid #01708b;
+  height: 100%;
+  color: #01708b;
+}
+
+.tarjetasFranquicias .tarjetica .interna {
+  padding: 30px;
+  height: 100%;
+  border: 1px solid #01708b;
+  -webkit-transition: .15s linear;
+  transition: .15s linear;
+}
+
+.tarjetasFranquicias .tarjetica .interna:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #01708b;
+  color: white;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    -webkit-transform: translate(0px, 50px);
+            transform: translate(0px, 50px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 60px);
+            transform: translate(0px, 60px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 50px);
+            transform: translate(0px, 50px);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0px, 50px);
+            transform: translate(0px, 50px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 60px);
+            transform: translate(0px, 60px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 50px);
+            transform: translate(0px, 50px);
+  }
 }
 
 @media screen and (max-width: 767px) {
