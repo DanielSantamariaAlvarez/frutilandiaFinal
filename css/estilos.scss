@@ -223,10 +223,15 @@ header{
     }
 }
 
-//Domicilios
+//Domicilios ----------------------------------------------------------------------------
 .domicilio{
     padding: 30px;
     margin-top: 70px;
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
     .centrar{
         text-align: center;
         display: block;
@@ -244,6 +249,7 @@ header{
         font-size: 20px;
         border-radius: 50px;
         cursor: pointer;
+        width: 100px;
         &:hover{
             background-color: $azul;
         }

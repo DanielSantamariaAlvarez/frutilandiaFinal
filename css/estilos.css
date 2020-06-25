@@ -230,6 +230,10 @@ header {
   margin-top: 70px;
 }
 
+.domicilio a:hover {
+  text-decoration: none;
+}
+
 .domicilio .centrar {
   text-align: center;
   display: block;
@@ -249,6 +253,7 @@ header {
   font-size: 20px;
   border-radius: 50px;
   cursor: pointer;
+  width: 100px;
 }
 
 .domicilio .boton:hover {
