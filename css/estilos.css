@@ -525,6 +525,14 @@ footer .redes a {
   text-decoration: none;
 }
 
+.postBanner .descripcion {
+  text-align: center;
+}
+
+.postBanner .descripcion .grandecito {
+  font-size: 30px;
+}
+
 .textFranquicias {
   background: #f0f0e8;
   padding: 50px;
@@ -730,6 +738,9 @@ footer .redes a {
   .bannerFranquicias .titu {
     font-size: 50px;
     text-align: center;
+  }
+  .textFranquicias .titulito {
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

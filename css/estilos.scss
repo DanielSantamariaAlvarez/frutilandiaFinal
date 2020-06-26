@@ -518,6 +518,12 @@ footer{
             text-decoration: none;
         }
     }
+    .descripcion{
+        text-align: center;
+        .grandecito{
+            font-size: 30px;
+        }
+    }
 }
 
 // TextFranquicias------------------------------------------------------------------
@@ -534,7 +540,7 @@ footer{
     .descripcion{
         text-align: center;
         font-size: 18px;
-
+        
     }
 }
 
@@ -561,22 +567,22 @@ footer{
         .flecha {
             animation: arrow 1s ease-in-out infinite;
             font-size:30px;              
-         }
-          
-         .flecha:hover{
-           animation:arrow 1s ease-out infinite !important;
-           a{
-            color:$verde;
-           }
-         }
-     }
-     
+        }
+        
+        .flecha:hover{
+            animation:arrow 1s ease-out infinite !important;
+            a{
+                color:$verde;
+            }
+        }
+    }
+    
     .descripcion{
         padding: 10px;
         margin-bottom: 30px;
         font-size: 30px;
         color: $azul;
-
+        
     }
     .tarjetica{
         padding: 10px;
@@ -598,17 +604,17 @@ footer{
 }
 @keyframes arrow {
     0% {
-      transform: translate(0px, 50px);
+        transform: translate(0px, 50px);
     }
-   
-     50% {
-      transform: translate(0px, 60px);
+    
+    50% {
+        transform: translate(0px, 60px);
     }
     
     100% {
-      transform: translate(0px, 50px);
+        transform: translate(0px, 50px);
     }
-  }
+}
 
 
 
@@ -726,10 +732,10 @@ footer{
             width: 70px;
         }
     }
-
-
-
-
+    
+    
+    
+    
     // Página de Eventos ------------------------------------
     
     //BannerEventos-------------------------------------------
@@ -739,8 +745,8 @@ footer{
             font-size: 50px;
         }
     }
-
-
+    
+    
     // Página de Franquicias ------------------------------------
     
     //BannerFranquicias-------------------------------------------
@@ -749,6 +755,13 @@ footer{
         .titu{
             font-size: 50px;
             text-align: center;
+        }
+    }
+    
+    // TextFranquicias------------------------------------------------------------------
+    .textFranquicias{
+        .titulito{
+            font-size: 25px;
         }
     }
 }
