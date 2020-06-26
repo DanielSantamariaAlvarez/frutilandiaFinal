@@ -29,6 +29,6 @@ $(".owl-carousel").owlCarousel({
     center:true,
     dots: false,
     autoplay:true,
-    autoplayTimeout:3000,
+    autoplayTimeout:2000,
     autoplayHoverPause:true
 });
