@@ -53,7 +53,7 @@
 
 header {
   height: 130px;
-  background: #01708b;
+  background: #1f419b;
 }
 
 .primi:hover {
@@ -113,7 +113,7 @@ header {
 .navigation-menu a:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: #a8c545;
+  color: #1f419b;
   text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ header {
 
 .banner .fondoAzul {
   position: absolute;
-  background: #01708b;
+  background: #1f419b;
   height: 50%;
   z-index: -9;
 }

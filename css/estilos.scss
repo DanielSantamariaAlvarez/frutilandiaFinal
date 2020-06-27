@@ -3,6 +3,7 @@ $verde:rgb(168,197,69);
 $crema:rgb(224,210,181);
 $cafe:rgb(94,84,72);
 $blanquito:rgb(240,240,232);
+$azul2: rgb(31,65,155);
 
 
 
@@ -62,7 +63,7 @@ $blanquito:rgb(240,240,232);
 //header----------------------------
 header{
     height: 130px;
-    background: $azul;
+    background: $azul2;
 }
 
 
@@ -118,7 +119,7 @@ header{
         color: white;
         &:hover{
             transform: scale(1.1);
-            color: $verde;
+            color: $azul2;
             text-decoration: none;
         }
     }
@@ -141,7 +142,7 @@ header{
     position: relative;
     .fondoAzul{
         position: absolute;
-        background: $azul;
+        background: $azul2;
         height: 50%;
         z-index: -9;
     }
