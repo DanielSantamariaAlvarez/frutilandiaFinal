@@ -1,9 +1,8 @@
-$azul:rgb(1,112,139);
+$azul:rgb(31,65,155);
 $verde:rgb(168,197,69);
 $crema:rgb(224,210,181);
 $cafe:rgb(94,84,72);
 $blanquito:rgb(240,240,232);
-$azul2: rgb(31,65,155);
 
 
 
@@ -63,7 +62,7 @@ $azul2: rgb(31,65,155);
 //header----------------------------
 header{
     height: 130px;
-    background: $azul2;
+    background: $azul;
 }
 
 
@@ -119,7 +118,6 @@ header{
         color: white;
         &:hover{
             transform: scale(1.1);
-            color: $azul2;
             text-decoration: none;
         }
     }
@@ -142,7 +140,7 @@ header{
     position: relative;
     .fondoAzul{
         position: absolute;
-        background: $azul2;
+        background: $azul;
         height: 50%;
         z-index: -9;
     }
@@ -619,6 +617,76 @@ footer{
 
 
 
+//Menu -----------------------------------------------------------------------------------
+.platos{
+    background: $verde;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    .tipos{
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 0 20px;
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .menu{
+            max-width: 100px;
+            color: $azul;
+            transition: .1s linear;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.tituMenu{
+    font-size: 50px;
+    color: $azul;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
+
+.producto{
+    margin-bottom: 50px;
+    .imagen{
+        img{
+            width: 100%;
+        }
+    }
+    .tituProducto{
+        font-size: 35px;
+        font-weight: bold;
+        color: $verde;
+    }
+    .descripcionProducto{
+        padding: 0 30px;
+        font-size: 20px;
+        color: $azul;
+    }
+    .precios{
+        .precio{
+            color: $azul;
+            border: 2px solid $verde;
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            transition: .1s linear;
+            &:hover{
+                background: $verde;
+            }
+
+        }
+    }
+
+}
+
+
 //Responsive --------------------------------------------------------------------------
 
 @media screen and (max-width:767px){
@@ -680,19 +748,7 @@ footer{
     
     .banner{
         margin-top: 120px;
-        .eventos{
-            .evento-description{
-                position: relative;
-                font-size: 0.8em;
-                bottom: 0;
-                background-color: black;
-                height: 300px;
-                .btn{
-                    opacity: 1;
-                }
-                
-            }
-        }
+        
     }
     
     //Titulo--------------------------------------
@@ -764,5 +820,11 @@ footer{
         .titulito{
             font-size: 25px;
         }
+    }
+
+
+    //Menu------------------------------------------------------------------------
+    .platos{
+        margin-top: 120px;
     }
 }

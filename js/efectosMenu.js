@@ -29,15 +29,18 @@ $(".owl-carousel").owlCarousel({
     resized:true,
     dots: false,
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:4000,
     autoplayHoverPause:true,
     responsiveClass:true,
     responsive:{
         0:{
-            items:1
-        },
-        600:{
             items:3
+        },
+        400:{
+            items:4
+        },
+        800:{
+            items:5
         }
     }
 });
