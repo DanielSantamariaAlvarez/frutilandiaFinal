@@ -67,17 +67,27 @@
                     </p>
                 </div>
             </div>
-            <form action="enviar.php"class ="formulario" id="formulario" method="post" name="contact-form">
+            <form class ="formulario" id="contactForm" name="sentMessage" novalidate="novalidate" >
                 <div class="contenedor-inputs">
-                    <input type="text" name ="nombre" placeholder="Nombre">
-                    <input type="email" name ="correo" placeholder="Correo">
-                    <input type="text" name ="telefono" placeholder="Teléfono">
-                    <input type="text" name ="asunto" placeholder="  Asunto">
-                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
+                    <p class="help-block text-danger"></p>
+                    <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor ingrese su eemail.">
+                    <p class="help-block text-danger"></p>
+                    <input class="form-control" id="phone" type="text" placeholder="Teléfono *" required="required" data-validation-required-message="Por favor ingrese su  número de teléfono.">
+                    <p class="help-block text-danger"></p>
+                    <input class="form-control" id="asunto" type="text" placeholder="Asunto *" required="required" data-validation-required-message="Por favor ingrese su asunto.">
+                    <p class="help-block text-danger"></p>
+                    <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese su mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
                 </div>
+
+
                 
                 <div class="registro">
-                    <input type="submit" class="btn" value="Enviar">
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button id="sendMessageButton" class="btn btn-primary btn-xl " type="submit">Enviar</button>
+                      </div>
                 </div>
             </form>
         </div>
@@ -94,8 +104,8 @@
                     </div>
                     <div class="redes">
                         <div class="row centrar">
-                            <a href="#"><div class="col-md-3 fab fa-facebook-f"></div></a>
-                            <a href="#"><div class="col-md-3 fab fa-instagram"></div></a>
+                            <a href="https://www.facebook.com/Frutilandiacol"><div class="col-md-3 fab fa-facebook-f"></div></a>
+                            <a href="https://www.instagram.com/frutilandia_co/"><div class="col-md-3 fab fa-instagram"></div></a>
                         </div>
                     </div>
                 </div>
@@ -105,8 +115,8 @@
                     </div>
                     <div class="redes">
                         <div class="row centrar">
-                            <div class="col-md-3 "><a href="#"><img class="rappi"src="img/domicilios.png" alt=""></a></div>
-                            <div class="col-md-4 "><a href="#"><img class="rappi"src="img/rappi.png" alt=""></a></div>
+                            <div class="col-md-3 "><a href="https://domicilios.com/restaurantes/villavicencio/frutilandia-barzal-menu"><img class="rappi"src="img/domicilios.png" alt=""></a></div>
+                            <div class="col-md-4 "><a href="https://www.rappi.com.co/villavicencio/restaurantes/frutilandia"><img class="rappi"src="img/rappi.png" alt=""></a></div>
                             <a href="https://www.tripadvisor.co/Restaurant_Review-g676523-d8549822-Reviews-Frutilandia-Villavicencio_Meta_Department.html"><div class="col-md-3 fab fa-tripadvisor"></div></a>
                         </div>
                     </div>
@@ -126,6 +136,7 @@
         </div>
     </footer>
     
+    <script src="js/jqBootstrapValidation.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="js/efectos.js"></script>
 </body>
