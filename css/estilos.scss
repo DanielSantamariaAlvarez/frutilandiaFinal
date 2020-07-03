@@ -37,6 +37,7 @@ $blanquito:rgb(240,240,232);
     margin: auto;
 }
 
+
 //------------------------Botón-----------------------------
 
 .ir-arriba{
@@ -96,7 +97,7 @@ header{
 .logo{
     float: left;
     padding: 20px 0;
-    max-width: 250px;
+    max-width: 300px;
     img{
         height: 90px;
     }
@@ -411,6 +412,7 @@ footer{
 
 
 // Contáctanos-----------------------------------------------------
+
 .contacto{
     padding-top: 60px;
     background: $blanquito;
@@ -508,6 +510,9 @@ footer{
 //PostBanner -------------------------------
 .postBanner{
     padding: 30px;
+    .video{
+        padding: 20px;
+    }
     .boton{
         margin-top: 10px;
         padding: 20px;
@@ -724,6 +729,9 @@ footer{
         left: 0;
         right: 0;
         z-index: 99;
+        .logo{
+            max-width: 250px;
+        }
     }
     .platos{
         position: fixed;
@@ -846,5 +854,9 @@ footer{
     }
     .ensaladas{
         margin-top: 190px;
+    }
+
+    .jeje{
+        margin-top: 120px;
     }
 }

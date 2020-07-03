@@ -80,7 +80,7 @@ header {
 .logo {
   float: left;
   padding: 20px 0;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .logo img {
@@ -517,6 +517,10 @@ footer .redes a {
   padding: 30px;
 }
 
+.postBanner .video {
+  padding: 20px;
+}
+
 .postBanner .boton {
   margin-top: 10px;
   padding: 20px;
@@ -751,6 +755,9 @@ footer .redes a {
     right: 0;
     z-index: 99;
   }
+  header .logo {
+    max-width: 250px;
+  }
   .platos {
     position: fixed;
     height: 50px;
@@ -829,6 +836,9 @@ footer .redes a {
   }
   .ensaladas {
     margin-top: 190px;
+  }
+  .jeje {
+    margin-top: 120px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
