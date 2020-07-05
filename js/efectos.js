@@ -1,7 +1,7 @@
 //Menú desplegable-------------------------------
 $(".menu-toggle-btn").click(function(){
     $(this).toggleClass("fa-times");
-    $(".navigation-menu").toggleClass("active");
+    $(".navigation-menu").toggleClass("activi");
 });
 
 
@@ -26,12 +26,10 @@ $(".owl-carousel").owlCarousel({
     margin:20,
     loop: true,
     center:true,
-    resized:true,
     dots: false,
     autoplay:true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
-    responsiveClass:true,
     responsive:{
         0:{
             items:1
