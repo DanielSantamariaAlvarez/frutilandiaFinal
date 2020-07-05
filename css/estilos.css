@@ -37,6 +37,17 @@
   margin: auto;
 }
 
+.fijo {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.juju {
+  margin-top: 200px;
+}
+
 .ir-arriba {
   display: block;
   padding: 15px 20px 10px 20px;
@@ -238,17 +249,38 @@ header {
   color: #1f419b;
 }
 
-.domicilio .boton {
-  padding: 10px;
+.domicilio .botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.domicilio .botones .boton {
+  padding: 20px;
   background: #a8c545;
   color: white;
   font-size: 20px;
   border-radius: 50px;
   cursor: pointer;
-  width: 100px;
+  width: 200px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
 }
 
-.domicilio .boton:hover {
+.domicilio .botones .boton:hover {
   background-color: #1f419b;
 }
 
@@ -266,12 +298,14 @@ header {
   color: #1f419b;
   background: #a8c545;
   height: 100%;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .sedes .sede {
   padding: 15px;
   font-size: 18px;
+  color: white;
 }
 
 .franquicias {
@@ -397,6 +431,10 @@ footer .redes a {
   text-decoration: none;
   color: white;
   margin-right: 70px;
+}
+
+footer .redes .nombres {
+  font-size: 16px;
 }
 
 .bannerEventos {

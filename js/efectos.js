@@ -42,27 +42,7 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
-const imagenes = [
-    'img/1.jpeg',
-    'img/2.jpeg',
-    'img/3.jpeg',
-    'img/4.jpeg',
-    'img/5.jpeg',
-    'img/6.jpeg',
-    'img/7.jpeg'
-    ];
-    var i = 0;
-    function cambiarImagen(){
-        var img = document.slider.src = imagenes[i];
-        if (i < imagenes.length - 1) {
-            i++;
-        }
-        else{
-            i = 0;
-        }
-        setTimeout("cambiarImagen()", 2000);
-    }
-    window.onload = cambiarImagen;
+
 
 
 
