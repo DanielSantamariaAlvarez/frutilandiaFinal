@@ -150,6 +150,15 @@ header {
   z-index: -9;
 }
 
+.banner .foto {
+  padding: 10px;
+}
+
+.banner .foto img {
+  width: 100%;
+  height: 100%;
+}
+
 .fotos .center {
   position: relative;
   width: 100%;
