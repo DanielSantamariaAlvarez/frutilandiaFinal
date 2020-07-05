@@ -814,6 +814,12 @@ footer{
         .texto{
             font-size: 35px;
         }
+        .botones{
+            flex-direction: column;
+            .boton{
+                margin: 5px auto;
+            }
+        }
         
         
     }
@@ -832,13 +838,14 @@ footer{
     
     footer{
         .titu{
-            font-size: 20px;
-        }
-        .redes{
             font-size: 30px;
         }
+        .redes{
+            font-size: 50px;
+        }
         .rappi{
-            width: 70px;
+            margin: 10px auto;
+            width: 100px;
         }
     }
     

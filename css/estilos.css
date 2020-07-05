@@ -845,6 +845,15 @@ footer .redes .nombres {
   .domicilio .texto {
     font-size: 35px;
   }
+  .domicilio .botones {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .domicilio .botones .boton {
+    margin: 5px auto;
+  }
   .nosotros {
     margin-top: 10px;
   }
@@ -852,13 +861,14 @@ footer .redes .nombres {
     font-size: 20px;
   }
   footer .titu {
-    font-size: 20px;
-  }
-  footer .redes {
     font-size: 30px;
   }
+  footer .redes {
+    font-size: 50px;
+  }
   footer .rappi {
-    width: 70px;
+    margin: 10px auto;
+    width: 100px;
   }
   .bannerEventos {
     margin-top: 120px;
