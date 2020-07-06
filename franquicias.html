@@ -45,7 +45,7 @@
                     <a href="eventos.html">Eventos</a>
                 </div>
                 <div class="col-md-3 primi">
-                    <a href="#Contacto">Contacto</a>
+                    <a href="#contacto">Contacto</a>
                 </div>
             </nav>
         </div>
@@ -193,18 +193,18 @@
                     </p>
                 </div>
             </div>
-            <form class ="formulario" id="contactForm" name="sentMessage" novalidate="novalidate" >
+            <form class ="formulario" method="post" action="contact.php"id="contactForm" name="contact-form" novalidate="novalidate" >
                 <div class="contenedor-inputs">
-                    <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
-                    <p class="help-block text-danger"></p>
-                    <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor ingrese su eemail.">
-                    <p class="help-block text-danger"></p>
-                    <input class="form-control" id="phone" type="text" placeholder="Teléfono *" required="required" data-validation-required-message="Por favor ingrese su  número de teléfono.">
-                    <p class="help-block text-danger"></p>
-                    <input class="form-control" id="asunto" type="text" placeholder="Asunto *" required="required" data-validation-required-message="Por favor ingrese su asunto.">
-                    <p class="help-block text-danger"></p>
-                    <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese su mensaje."></textarea>
-                    <p class="help-block text-danger"></p>
+                    <input name="name" class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Por favor ingrese su nombre.">
+                    
+                    <input  name="email" class="form-control" id="email" type="email" placeholder="Email *" required data-validation-required-message="Por favor ingrese su eemail.">
+                    
+                    <input  name="phone" class="form-control" id="phone" type="text" placeholder="Teléfono *" required data-validation-required-message="Por favor ingrese su  número de teléfono.">
+                    
+                    <input  name="asunto" class="form-control" id="asunto" type="text" placeholder="Asunto *" required data-validation-required-message="Por favor ingrese su asunto.">
+                    
+                    <textarea  name="message" class="form-control" id="message" placeholder="Mensaje *" required data-validation-required-message="Por favor ingrese su mensaje."></textarea>
+                    
                 </div>
 
 
