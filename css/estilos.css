@@ -491,7 +491,14 @@ footer .redes .nombres {
   font-size: 20px;
 }
 
-.contacto .formulario .form-control {
+.contacto .formulario .contenedor-inputs {
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+}
+
+.contacto .formulario input[type="text"],
+.contacto .formulario input[type="email"],
+.contacto .formulario textarea {
   display: block;
   width: 80%;
   margin: auto;
