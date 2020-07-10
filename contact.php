@@ -10,7 +10,8 @@ $asunto = $_POST['asunto'];
 // Datos para el correo
 $destinatario = "d.s.a.dan@hotmail.com";
 
-$carta = "De: $nombre \n";
+$carta = "Coreo de la web de frutilandia: \n";
+$carta .= "De: $nombre \n";
 $carta .= "Correo: $correo \n";
 $carta .= "Asunto: $asunto \n";
 $carta .= "telefono: $telefono \n";
