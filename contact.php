@@ -8,9 +8,9 @@ $mensaje = $_POST['message'];
 $asunto = $_POST['asunto'];
 
 // Datos para el correo
-$destinatario = "d.s.a.dan@hotmail.com";
+$destinatario = "info@frutilandia.com.co";
 
-$carta = "Coreo de la web de frutilandia: \n";
+$carta = "Correo de la web de frutilandia: \n";
 $carta .= "De: $nombre \n";
 $carta .= "Correo: $correo \n";
 $carta .= "Asunto: $asunto \n";
